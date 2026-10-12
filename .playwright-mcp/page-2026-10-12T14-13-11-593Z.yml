@@ -1,0 +1,29 @@
+- generic [ref=f2e1]:
+  - generic [ref=f2e3]:
+    - navigation [ref=f2e4]:
+      - generic [ref=f2e5]:
+        - link "Restful Booker Platform Demo" [ref=f2e6] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f2e7]:
+          - list
+          - list [ref=f2e8]:
+            - listitem [ref=f2e9]:
+              - link "Front Page" [ref=f2e10] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f2e11]:
+              - button "Logout" [ref=f2e12] [cursor=pointer]
+    - generic [ref=f2e18]:
+      - heading "Login" [level=2] [ref=f2e20]
+      - generic [ref=f2e21]:
+        - alert [ref=f2e32]: Invalid credentials
+        - generic [ref=f2e22]:
+          - generic [ref=f2e23]:
+            - generic [ref=f2e24]: Username
+            - textbox "Username" [ref=f2e25]:
+              - /placeholder: Enter username
+              - text: invalid-user
+          - generic [ref=f2e26]:
+            - generic [ref=f2e27]: Password
+            - textbox "Password" [ref=f2e28]: incorrect-password
+          - button "Login" [active] [ref=f2e29] [cursor=pointer]
+  - alert [ref=f2e31]

@@ -1,0 +1,19 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e3]:
+    - navigation [ref=f4e4]:
+      - generic [ref=f4e5]:
+        - link "Restful Booker Platform Demo" [ref=f4e6] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f4e7]:
+          - list
+          - list [ref=f4e8]:
+            - listitem [ref=f4e9]:
+              - link "Front Page" [ref=f4e10] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f4e11]:
+              - button "Logout" [ref=f4e12] [cursor=pointer]
+    - generic [ref=f4e13]:
+      - status [ref=f4e14]:
+        - generic [ref=f4e15]: Loading...
+      - paragraph [ref=f4e16]: Loading...
+  - alert [ref=f4e17]
