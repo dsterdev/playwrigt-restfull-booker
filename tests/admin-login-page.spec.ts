@@ -4,6 +4,7 @@
 import { test, expect } from '@playwright/test';
 
 test.describe('Admin access', () => {
+
   test('Display the admin login form', async ({ page }) => {
     // 1. Open the admin panel without authenticating.
     await page.goto('https://automationintesting.online/admin');
